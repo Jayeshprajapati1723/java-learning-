@@ -25,27 +25,8 @@ System.out.println("student name :"+sname) ;
 System.out.println("course name : " +crsname) ;
 System.out.println("you got " +discount+ "% off on opted course  ") ;
 System.out.println("course fee final after discount" +crsfees) ;
-
-
-
 }
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
 public class s1clsassqsn1 {
     public static void main(String[] args) {
 CourseStudent s1= new CourseStudent()  ;
