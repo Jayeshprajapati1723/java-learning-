@@ -4,8 +4,8 @@ static void show (){
 System.out.println("me static hu ") ;
 }
     public static void main(String[] args) {
-    
-System.out.println("me non static hu bad m chlta hu phle static")  ;
- show() ;   
+     show() ;   
+System.out.println(" main method k static hu m me non static nhi  hu bad m chlta hu phle static")  ;
+
 }    
 }
