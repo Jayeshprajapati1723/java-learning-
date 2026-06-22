@@ -13,7 +13,7 @@ bb() {
 public class thissuper {
     public static void main(String[] args) {
         bb b1 = new bb() ;
-
+        System.out.println("b1"+b1);//address
     }
     
 }
