@@ -1,0 +1,72 @@
+Inheritance : aquaring the properties of parent class to create a child clasb 
+                keyword use extends B EXTENDS A 
+                PRIVATE MEMEBERS OF CALSS inehrit to honge pr use nhi kr skte h but are not acessible 
+
+                static block with Inheritance
+                consturctor with Inheritance
+                super () parent class k construcotrr k o change krega value k dhyan rkhna h parameter h ya nhi whi stop krega 
+
+                if you are not write in consturctor than the default dhaining is executed ;
+
+                object is a hr class k parent hota h object is class name object 
+
+                intialize block with Inheritance
+
+2 member chaining : variables or methods k sath 
+class variables instance variable dono hi classs leverl variable bhi h 
+    a a m priorityy local ko 
+    this.a se class level ko use kro same classss 
+    super.a se parent class k use krega  
+    >> method local nhi ho skt H 
+    this se same classs k function ayega .
+    pr ha super lga kr parent class k function se kam kr skte h  
+
+
+    << types of Inheritance>> 
+    single 
+    hirerearichal 
+    multilevael 
+    hybrid 
+    multiple inheritance ek child k multipple parents pr java m possible nhi h prntu interface k sath possible
+    kyo nhi allowed mutlipple inheritance : 
+
+    <<polymorphism : mutliple methods having same name 
+                         types : compile time static polymorphism => achieved by mehtod overloading 
+                                       dynamic time run time polymorphism -> acessible by mehtod overiding 
+>> Compile time polymorphism : having mutliple mehtods with same and diffrent arguments insider a class is known as method overloding by mehtod overiding 
+
+>>binding is a process known to which method is called by user on compile time 
+          connecting a mehtod call to its declartion is know as bindign 
+
+          how to perform binding is done by refrence type 
+          mehtod name msut be samme 
+          method arguments must be diffrenvt 
+          mehtod return type can be same diffrnet 
+          inheritance is optional 
+          methods can be static or non static 
+          acess modifirer can be same or diffrent 
+
+
+
+>> method overiding : having same signature non name same return tyupe same arguments same inheritance is compulsory 
+acess modifirer must be same or stong 
+method can be non static 
+public protected default private 
+
+upcasting >> non premetive type casting : storing child object in parent refrence type 
+>> gav k ldka saher m a jana 
+
+downcasting agr whi vapis gav a jaye to downcasting paarent class gya tha vapis child m ahye to downcasting hota h 
+        
+sahar k ldke ko offer mila ki gav m rhna h ek hpta or man to jayega pr run time error a jayega 
+
+>> run time polymorphism == method overiding + non premetive upcasting 
+non static method executes of objects 
+static mehtod and variables (static or non static ) executes of refrence type 
+
+//abstract class and abstract method 
+a class that can not be intensitated ek esa class jiska object kbhi nhi bna skte h 
+aclass that is used to acess its sub classe only 
+a class that is used to aachieve run time polymorphism
+
+
