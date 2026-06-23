@@ -9,10 +9,6 @@ class jayesh {
 }
 
 
-
-
-
-
 public class staticvsblock {
 public static void main(String[] args) {
   jayesh j1 = new jayesh() ;
