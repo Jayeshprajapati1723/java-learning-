@@ -12,5 +12,5 @@ public class singletonc {
     // M M2 = new M() ;//error
     //do object bn rhe h 
     // to class se bahar restrict krna hoga 
-                M.getinstance() ;
+       
 }
