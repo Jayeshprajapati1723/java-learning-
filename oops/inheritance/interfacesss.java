@@ -1,4 +1,4 @@
-
+//interface 
 //it is a hundred percent abstract class by default 
 //interface ek extra benefit deta  h
 //multiple inheritance allow ho ggya interface se 
@@ -21,18 +21,27 @@
 //final method : a method that can not be overidden in its child class 
 //final variable : a variable whose value can not be changed 
 
-
-
-
-
-
 interface shape  {
+void findarea();
+}
+interface size {
+    void calsize() ;
+}
+
+ class circle implements shape ,size{
+public void findarea() {
+    System.out.println("hello from class ") ;
+}
 
 }
 
+
 public class interfacesss {
 
-
+public static void main(String[] args) {
+    shape s = new circle() ;
+    s.findarea(); 
+}
 }
 
 
